@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engplan</title>
+
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/nav-list.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/vars.css">
 </head>
+
 <body>
     <script src="https://kit.fontawesome.com/36ae4e4b4f.js" crossorigin="anonymous"></script>
-    <header>
+
+    <header class="menu-principal">
+
         <nav>
-            <div class="content__info">
-                <div class="content__info_tel">
-                    <ul>
-                        <li><a href="wa.me/5562995132226">(62) 99513-2226</a></li>
-                        <li><a href="wa.me/5562995132226">(62) 99513-2226</a></li>
-                    </ul>
-                </div>
-            
-                <div class="content__header">
-                    <a href="./"></a><img src="" alt="Logo engenharia"></a>
-                    <ul>
-                        <li>Home</li>
-                        <li>Quem Somos</li>
-                        <li>Equipe</li>
-                        <li>Dúvidas</li>
-                        <li>Blog</li>
-                    </ul>
-                    <button>Contato</button>
-                </div>
+            <div class="logo">
+                <a href="index.html"><img class="img-logo" src="src/assets/img/terminal.png" alt="logo code"></a>
             </div>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <ul class="nav-list uppercase">
+                <li><a class="menu-links" href="#sobre">Sobre Mim</a></li>
+                <li><a class="menu-links" href="#projetos">Projetos</a></li>
+                <li><a class="menu-links" href="#contatos">Contatos</a></li>
+            </ul>
         </nav>
     </header>
+
+
+
     <div class="content__info_links_sociais">
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-youtube"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                </div>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+    <script src="assets/js/mobile-navbar.js"></script>
 </body>
+
 </html>
