@@ -1,3 +1,10 @@
 .uppercase {
     text-transform: uppercase;
 }
+
+.background-inicio {
+    background-color: var(--primary-bg);
+    background-image: url(/assets/img/engplan-background-principal.png);
+    background-repeat: no-repeat;
+    height: 85vh;
+}
