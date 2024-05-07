@@ -96,16 +96,16 @@ header nav {
         overflow-x: hidden;
     }
 
-    header {
+    /* header {
         margin-bottom: 3rem;
-    }
+    } */
 
     nav {
         height: 80px;
     }
 
     .img-logo {
-        width: 124px;
+        width: 70%;
     }
 
     .nav-list { 

@@ -9,6 +9,75 @@
     height: 85vh;
 }
 
-#contato {
-    height: 70vh;
+.inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+h1 {
+    font-size: 38px;
+    color: var(--font-color-branco);
+}
+
+/* Seção portfólio */
+
+#portfolio {
+    margin: 0 auto;
+}
+
+#portfolio h2 {
+    text-align: center;
+    margin: 44px 0;
+}
+
+#portfolio .container-fotos-portfolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+    margin-bottom: 44px;
+}
+
+#portfolio .container-fotos-portfolio .conteudo-fotos-portfolio {
+    width: 274px;
+    height: 370px;
+    margin: 0 auto;
+}
+
+#portfolio .container-fotos-portfolio .background-portfolio-1 {
+    background-image: url(/assets/img/portfolio-imagem.png);
+}
+#portfolio .container-fotos-portfolio .background-portfolio-2 {
+    background-image: url(/assets/img/portfolio-imagem.png);
+}
+#portfolio .container-fotos-portfolio .background-portfolio-3 {
+    background-image: url(/assets/img/portfolio-imagem.png);
+}
+#portfolio .container-fotos-portfolio .background-portfolio-4 {
+    background-image: url(/assets/img/portfolio-imagem.png);
+}
+#portfolio .container-fotos-portfolio .background-portfolio-5 {
+    background-image: url(/assets/img/portfolio-imagem.png);
+}
+#portfolio .container-fotos-portfolio .background-portfolio-6 {
+    background-image: url(/assets/img/portfolio-imagem.png);
+}
+#portfolio .container-fotos-portfolio .background-portfolio-7 {
+    background-image: url(/assets/img/portfolio-imagem.png);
+}
+#portfolio .container-fotos-portfolio .background-portfolio-8 {
+    background-image: url(/assets/img/portfolio-imagem.png);
+}
+
+.botao-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--terciary-bg);
+    color: var(--font-color-branco);
+    font-weight: 600;
+    width: 272px;
+    padding: 16px 0;
+    border-radius: 4px;
 }
