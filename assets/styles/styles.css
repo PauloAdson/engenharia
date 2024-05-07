@@ -22,9 +22,6 @@ h1 {
 
 /* Seção portfólio */
 
-#portfolio {
-    margin: 0 auto;
-}
 
 #portfolio h2 {
     text-align: center;
@@ -35,7 +32,6 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 40px;
-    margin-bottom: 44px;
 }
 
 #portfolio .container-fotos-portfolio .conteudo-fotos-portfolio {
@@ -73,7 +69,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 44px auto;
     background-color: var(--terciary-bg);
     color: var(--font-color-branco);
     font-weight: 600;
