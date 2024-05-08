@@ -18,6 +18,11 @@
     opacity: 0.7;
 }
 
+.link-ativo {
+    color: var(--font-color-azul-claro);
+    opacity: 1;
+}
+
 header nav {
     width: 100%;
     display: flex;
