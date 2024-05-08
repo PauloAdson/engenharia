@@ -27,7 +27,7 @@ class MobileNavbar {
         if (this.navList.classList.contains(this.activeClass)) {
             this.handleToggle();
         }
-        
+
     } // Termina aqui
 
     handleDocumentClick(event) {
@@ -38,14 +38,14 @@ class MobileNavbar {
             this.animateLinks();
         }
     }
-    
+
 
 
     animateLinks() {
         this.navLinks.forEach((link, index) => {
             link.style.animation
-            ? (link.style.animation = "")
-            : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`);
+                ? (link.style.animation = "")
+                : (link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`);
         });
     }
 
@@ -75,3 +75,30 @@ const mobileNavbar = new MobileNavbar(
     ".nav-list li",
 );
 mobileNavbar.init();
+
+
+
+// menu ativo troca de cores
+
+let caminhoURL = window.location.href;
+
+let linksMenu = document.querySelectorAll('nav ul li a');
+
+
+linksMenu.forEach(link => {
+        if (link.href === caminhoURL) {
+            link.classList.add('link-ativo');
+        }
+    })
+
+document.querySelectorAll('nav ul li a').forEach(link => {
+
+
+    link.addEventListener('click', function(event){
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.classList.remove('link-ativo')
+        })
+        this.classList.add('link-ativo')
+    })
+})
+
