@@ -1,6 +1,8 @@
 /* backgrund contato */
 /* https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/background-contato.png */
-
+ body {
+    overflow-x: hidden;
+ }
 .uppercase {
     text-transform: uppercase;
 }

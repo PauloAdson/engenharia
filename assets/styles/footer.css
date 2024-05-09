@@ -14,15 +14,17 @@ footer ul {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    width:400px;
+    width: 400px;
     height: 30px;
     list-style-type: disc;
     color: var(--font-color-branco);
 }
-footer li a{
+
+footer li a {
     color: var(--font-color-branco);
 }
-footer li a:hover{
+
+footer li a:hover {
     color: var(--font-color-branco-opacidade);
 }
 
@@ -31,6 +33,7 @@ footer p {
     text-align: center;
     font-size: 12px;
 }
+
 footer p a {
     color: var(--font-color-branco-opacidade);
 }
@@ -52,5 +55,13 @@ footer p a {
 @media screen and (max-width: 600px) {
     footer ul {
         width: 100%;
+        margin-bottom: 14px;
+    }
+
+    footer .menu-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
