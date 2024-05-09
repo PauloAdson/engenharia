@@ -158,7 +158,9 @@ header nav {
     transform: translateX(0);
     top: 11vh;
 }
-
+.mobile-menu {
+    z-index: 15;
+}
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
 }
