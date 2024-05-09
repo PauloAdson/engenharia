@@ -1,18 +1,22 @@
+/* backgrund contato */
+/* https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/background-contato.png */ 
+
 .uppercase {
     text-transform: uppercase;
 }
 
 .background-inicio {
     background-color: var(--primary-bg);
-    background-image: url(./assets/img/engplan-background-principal.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/engplan-background-principal.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     height: 85vh;
 }
 
+/* background mobile */
 @media screen and (max-width: 600px) {
     .background-inicio {
-    background-image: url(./assets/img/engplan-background-principal-mobile.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/engplan-background-principal-mobile.png);
     height: 60vh;
     margin: -1px;
     }
@@ -77,28 +81,28 @@ h1 {
 }
 
 #portfolio .container-fotos-portfolio .background-portfolio-1 {
-    background-image: url(./assets/img/portfolio-imagem.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/portfolio-imagem.png);
 }
 #portfolio .container-fotos-portfolio .background-portfolio-2 {
-    background-image: url(./assets/img/portfolio-imagem.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/portfolio-imagem.png);
 }
 #portfolio .container-fotos-portfolio .background-portfolio-3 {
-    background-image: url(./assets/img/portfolio-imagem.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/portfolio-imagem.png);
 }
 #portfolio .container-fotos-portfolio .background-portfolio-4 {
-    background-image: url(./assets/img/portfolio-imagem.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/portfolio-imagem.png);
 }
 #portfolio .container-fotos-portfolio .background-portfolio-5 {
-    background-image: url(./assets/img/portfolio-imagem.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/portfolio-imagem.png);
 }
 #portfolio .container-fotos-portfolio .background-portfolio-6 {
-    background-image: url(./assets/img/portfolio-imagem.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/portfolio-imagem.png);
 }
 #portfolio .container-fotos-portfolio .background-portfolio-7 {
-    background-image: url(./assets/img/portfolio-imagem.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/portfolio-imagem.png);
 }
 #portfolio .container-fotos-portfolio .background-portfolio-8 {
-    background-image: url(./assets/img/portfolio-imagem.png);
+    background-image: url(https://raw.githubusercontent.com/PauloAdson/engenharia/main/assets/img/portfolio-imagem.png);
 }
 
 .botao-portfolio {
