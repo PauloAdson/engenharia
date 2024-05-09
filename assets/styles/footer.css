@@ -14,7 +14,7 @@ footer ul {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    width: 80%;
+    width:400px;
     height: 30px;
     list-style-type: disc;
     color: var(--font-color-branco);
@@ -43,3 +43,14 @@ footer p a {
     padding: 0 0 24px 0;
 }
 
+@media screen and (min-width:601) and (max-width: 999px) {
+    footer ul {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer ul {
+        width: 100%;
+    }
+}
