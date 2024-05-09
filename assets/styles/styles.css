@@ -29,7 +29,7 @@
 @media screen and (max-width: 600px) {
     .background-inicio {
         height: 70vh;
-        margin: -1px;
+        margin-top: -1px;
     }
 
     .background-inicio::before {
