@@ -6,7 +6,16 @@
     background-color: var(--primary-bg);
     background-image: url(/assets/img/engplan-background-principal.png);
     background-repeat: no-repeat;
+    background-position: left bottom;
     height: 85vh;
+}
+
+@media screen and (max-width: 600px) {
+    .background-inicio {
+    background-image: url(/assets/img/engplan-background-principal-mobile.png);
+    height: 70vh;
+    
+    }
 }
 
 .inicio {
@@ -34,6 +43,32 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 40px;
 }
+
+@media screen and (max-width: 579px) {
+    #portfolio .container-fotos-portfolio{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 580px) and (max-width: 855px) {
+    #portfolio .container-fotos-portfolio{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:856px) and (max-width: 1150px) {
+    #portfolio .container-fotos-portfolio{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    #portfolio .container-fotos-portfolio{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
 
 #portfolio .container-fotos-portfolio .conteudo-fotos-portfolio {
     width: 274px;
