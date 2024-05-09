@@ -14,7 +14,7 @@ footer ul {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    width:400px;
+    width: 80%;
     height: 30px;
     list-style-type: disc;
     color: var(--font-color-branco);
