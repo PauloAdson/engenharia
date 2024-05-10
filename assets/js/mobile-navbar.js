@@ -86,15 +86,15 @@ let linksMenu = document.querySelectorAll('nav ul li a');
 
 
 linksMenu.forEach(link => {
-        if (link.href === caminhoURL) {
-            link.classList.add('link-ativo');
-        }
-    })
+    if (link.href === caminhoURL) {
+        link.classList.add('link-ativo');
+    }
+})
 
 document.querySelectorAll('nav ul li a').forEach(link => {
 
 
-    link.addEventListener('click', function(event){
+    link.addEventListener('click', function (event) {
         document.querySelectorAll('nav ul li a').forEach(link => {
             link.classList.remove('link-ativo')
         })

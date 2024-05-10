@@ -1,27 +1,27 @@
-
 @media screen and (max-width: 999px) {
     .inicio {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
-    .inicio .mobile h1{
+
+    .inicio .mobile h1 {
         text-align: center;
     }
 }
+
 @media screen and (min-width: 601px) and (max-width: 999px) {
     .hidden {
         display: none;
     }
 
-    .inicio .mobile h1{
+    .inicio .mobile h1 {
         font-size: 32px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .inicio .mobile h1{
+    .inicio .mobile h1 {
         font-size: 28px;
     }
 }

@@ -4,14 +4,14 @@
 }
 
 .img-logo {
-    width:  240px;
+    width: 240px;
 }
 
 .menu-links {
     color: var(--font-color-branco);
     text-decoration: none;
     transition: 0.3s;
-    
+
 }
 
 .menu-links:hover {
@@ -113,7 +113,7 @@ header nav {
         width: 70%;
     }
 
-    .nav-list { 
+    .nav-list {
         position: absolute;
         right: 0;
         height: 94vh;
@@ -135,7 +135,7 @@ header nav {
 
     .mobile-menu {
         display: block;
-        
+
     }
 
     @keyframes navLinkFade {
@@ -158,9 +158,11 @@ header nav {
     transform: translateX(0);
     top: 11vh;
 }
+
 .mobile-menu {
     z-index: 15;
 }
+
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
 }
