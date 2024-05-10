@@ -176,6 +176,8 @@ h1 {
     color: var(--font-color-branco-opacidade);
     font-size: 48px;
     font-weight: 700;
+    padding-left: 20px;
+    padding-right: 27px;
 }
 
 .titulo-projetos {
