@@ -155,8 +155,25 @@ h1 {
     width: 100%;
     margin: 0 auto;
 }
+
 .conteudo-projetos {
     width: 40%;
+}
+
+.container-titulo-conteudo-projetos {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.numero-conteudo-projetos {
+    color: var(--font-color-cinza);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.titulo-conteudo-projetos {
+    font-size: 24px;
 }
 
 .conteudo-tabela-projetos {
