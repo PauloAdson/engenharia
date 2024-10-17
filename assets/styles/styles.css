@@ -4,6 +4,10 @@ body {
     overflow-x: hidden;
 }
 
+section {
+    padding: 44px 12px;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -55,10 +59,14 @@ h1 {
 
 /* Seção portfólio */
 
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
 
 #portfolio h2 {
     text-align: center;
-    margin: 44px 0;
 }
 
 #portfolio .container-fotos-portfolio {
@@ -135,7 +143,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 44px auto;
+    margin: 0 auto;
     background-color: var(--terciary-bg);
     color: var(--font-color-branco);
     font-weight: 600;
@@ -150,17 +158,20 @@ h1 {
 }
 
 #projetos {
+    max-width: 1640px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 .conteudo-projetos {
     width: 40%;
 }
 
-.container-titulo-conteudo-projetos {
+div.container-titulo-conteudo-projetos {
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 21px;
@@ -183,10 +194,19 @@ h1 {
     color: var(--font-color-branco);
     width: 100%;
     height: 100px;
+    cursor: pointer;
+}
+
+.conteudo-tabela-projetos:hover {
+    background-color: var(--primary-bg-claro);
+}
+
+.conteudo-tabela-projetos.selecionado {
+    background-color: var(--terciary-bg);
 }
 
 .container-tabela-projetos {
-    width: 40%;
+    width: 60%;
 }
 
 .numero-projetos {
