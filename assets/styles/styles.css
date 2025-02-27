@@ -65,7 +65,8 @@ h1 {
     gap: 44px;
 }
 
-#portfolio h2 {
+#portfolio h2.uppercase {
+    font-size: 1.8rem;
     text-align: center;
 }
 
@@ -157,17 +158,50 @@ h1 {
     background-color: var(--primary-bg);
 }
 
+section#clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+}
+
+#clientes h2.uppercase {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* SECAO PROJETOS */
 #projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+#projetos h2.uppercase {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#projetos div.section_projetos-container {
     max-width: 1640px;
+    margin: 0 auto;
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin: 0 auto;
     box-sizing: border-box;
+
 }
 
 .conteudo-projetos {
     width: 40%;
+    display: flex;
+}
+
+.conteudo-projetos-div {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
 }
 
 div.container-titulo-conteudo-projetos {
